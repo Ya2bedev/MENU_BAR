@@ -116,3 +116,11 @@ a {
 	text-align: center;
 	color: #4c4d4d;
 }
+@media (max-width: 600px) {
+	.Menu-bar{
+		display: inline;
+	}
+	.Menu-bar ul li a{
+		font-size: 10px;
+	}
+}
