@@ -1,0 +1,151 @@
+/* font-family: surin;
+font-family: ream;
+font-family: kizerd;
+font-family: remuz;
+font-family: besdong; 
+font-family: medin;*/
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #495579;
+}
+/* ----------NAV-BAR---------- */
+.container {
+	width: 100%;
+	background-color: #2b3467;
+}
+.Menu-bar {
+	padding: 1rem;
+}
+.Menu-bar ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-align: center;
+}
+.Menu-bar ul li {
+	display: inline-block;
+}
+.Menu-bar ul li .b_ef img {
+	width: 1rem;
+}
+.Menu-bar ul li .b_ef {
+	text-decoration: none;
+	color: #fff5e4;
+	margin-left: 12px;
+	font-family: kizerd;
+	transition: all 0.1s linear;
+	position: relative;
+}
+.Menu-bar ul li .b_ef:hover{
+color: #eb6540;
+}
+
+.Menu-bar ul li .b_ef:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #ffffff;
+	padding: 1px 0px 0px 1px;
+	border-radius: 3.5rem;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+.Menu-bar ul li .b_ef:hover:after {
+	transform: scaleX(1);
+
+	transform-origin: bottom left;
+}
+
+/* ----text---- */
+.text {
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: remuz;
+	text-align: justify;
+}
+.text h1 {
+	font-size: 3rem;
+	font-family: medin;
+	text-align: center;
+	padding: 2rem;
+	color: #eb6540;
+}
+.text h1 span {
+	color: #fff5e4;
+}
+/* Fontkhmer */
+.text h3 {
+	color: #fffbeb92;
+	margin-top: 50px;
+	font-family: ream;
+	margin-left: 1rem;
+	font-size: 1.5rem;
+}
+.text h2 {
+	color: #fffbeb92;
+	margin-top: 50px;
+	font-family: kizerd;
+	font-size: 1.5rem;
+	margin-left: 1rem;
+}
+
+/* ----Footer 1---- */
+.FOOT1 {
+	margin-top: 2.5rem;
+	padding: 3rem;
+	background-color: #ff741da2;
+	font-family: remuz;
+}
+.FOOT1 img {
+	width: 250px;
+	margin-left: -15px;
+}
+.FOOT1 p,
+a{
+	letter-spacing: 1px;
+	color: #eafdfcc8;
+	text-decoration: none;
+	margin-left: 10px;
+	position: relative;
+	font-family: besdong;
+}
+.FOOT1 a:hover{
+color: #eb6540;
+background-color: #495579;
+border-radius: 18px;
+padding: 1px 5px 1px 5px;
+}
+/* ----Footer 2---- */
+.FOOT2 {
+	padding: 1.5rem;
+	background-color: #251749;
+	font-family: medin;
+	text-align: center;
+	color: #3c3d3d;
+}
+
+/* ----Responsive---- */
+@media (max-width: 600px) {
+	ul {
+		list-style: none;
+		overflow: hidden;
+		display: block;
+		margin-left: 1.5rem;
+	}
+	li a {
+		float: left;
+		padding: 0.5rem;
+		font-size: 0.75rem;
+	}
+	.dec h1 {
+		font-size: 1.5rem;
+		padding: 2rem;
+	}
+}
