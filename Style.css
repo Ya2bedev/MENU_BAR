@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-image: url(ee.png);
+	background-image: url(bgi.gif);
 }
 
 .container {
@@ -37,8 +37,8 @@ body {
 	background-color: #3a4f7a;
 }
 .About {
-	margin-top: 32%;
-	margin-left: 50%;
+	margin-top: 25%;
+	margin-left: 25%;
 }
 .About span a {
     font-family: medin;
