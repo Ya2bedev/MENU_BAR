@@ -1,8 +1,8 @@
-body {
+.body_design {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-image: url(IMG/BGHOME.jpg);
+	background-image: url(IMG/bgdesign.png);
 }
 /* ----------NAV-BAR---------- */
 .container {
@@ -55,47 +55,13 @@ body {
 
 	transform-origin: bottom left;
 }
-/* -----TEXT----- */
-h1,
-p {
-	padding-top: 3rem;
+.text h1 {
+	font-size: 3rem;
+	font-family: medin;
 	text-align: center;
-	color: #9fc9f3;
-
-	font-size: 2.5rem;
-	font-family: kizerd;
-	letter-spacing: 3px;
+	padding: 2rem;
+	color: #3f0071;
 }
-p {
-	letter-spacing: normal;
-	font-family: medin;
-	font-size: 1.5rem;
-	color: white;
-}
-.About {
-	margin-top: 30%;
-	margin-left: 50%;
-}
-.About span a {
-	font-size: 0.75rem;
-	font-family: medin;
-	padding: 0.75rem;
-	background-color: #eb6440;
-	color: #ffffffe3;
-	border-radius: 1.5rem;
-	text-decoration: none;
-	transition: 0.2s;
-}
-.About span:hover a {
-	background-color: #ffffffe3;
-	color: #eb6440;
-}
-
-@media (max-width: 600px) {
-	.Menu-bar {
-		display: inline;
-	}
-	.Menu-bar ul li a {
-		font-size: 10px;
-	}
+.text h1 span {
+	color: #fb2576;
 }
